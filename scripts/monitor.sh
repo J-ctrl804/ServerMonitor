@@ -2,6 +2,7 @@
 echo "Monitoring server..."
 send_alert() {
   echo "Sending alert..."
+  ./scripts/alert.sh
 }
 monitor_server() {
   while true; do
